@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Projeto 7</title>
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <h1>Cadastro de Usuário</h1>
+            </header>
+
+            <section>
+                <form action = "dados" method ="post">
+                    <label for = "nome">Nome:</label>
+                    <input type = "text" id = "nome" name = "nome" required><br><br>
+
+                    <label  for = "email">Email:</label>
+                    <input for = "text" id = "email" name = "email" required><br><br>
+
+                    <label for = "senha">Senha:</label>
+                    <input type = "password" id = "senha" name = "senha" required><br><br>
+
+                    <label for = "genero">Gênero:</label>
+                    <select>
+                        <option value = "feminino">Fêminino</option>
+                        <option value = "masculino">Masculino</option>
+                        <option value = "naoBinario">Não Binario</option>
+                        <option value = "PrefiroNaoDizer">Prefiro Não Dizer</option>
+                    </select><br><br>
+
+                    <label>Interesses:</label><br>
+                    <input type = "checkbox" name = "interesses" value = "programacao">Programação<br>
+                    <input type = "checkbox" name = "interesses" value = "design">Design<br>
+                    <input type = "checkbox" name = "interesses" value = "Esportes">Esportes<br><br>
+                    
+                    <label for = "biografia">Biografia:</label><br>
+                    <textarea id = "biografia" name = "biografia" rows = "5" cols = "30"></textarea><br><br>
+
+                    <input type = "submit">
+                </form>
+            </section>
+        </main>
+    </body>
+
+</html>
